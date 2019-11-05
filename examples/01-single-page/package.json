@@ -1,0 +1,27 @@
+{
+  "name": "02-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assets/js/app.js",
+  "scripts": {
+    "dev": "webpack-dev-server --color",
+    "start": "webpack --mode=development"
+  },
+  "author": "Julien M'Poy",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
