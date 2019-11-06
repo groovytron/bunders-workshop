@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  php:
+    image: groovytron/php:7.3
+    user: dev
+    tty: true
+    environment:
+      - TERM=xterm-256color
+    ports:
+      - '8000:8000'
+    volumes:
+      - ./:/var/www/app
+    entrypoint: ./docker/php_entrypoint.sh
