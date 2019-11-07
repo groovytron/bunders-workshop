@@ -1,5 +1,6 @@
 {
-  "name": "02-webpack",
+  "name": "01-single-page",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "scripts": {

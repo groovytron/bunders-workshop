@@ -1,4 +1,4 @@
 framework:
     assets:
-        base_path: 'public/build'
+        base_path: 'build'
         json_manifest_path: '%kernel.project_dir%/public/build/manifest.json'

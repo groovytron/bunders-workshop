@@ -4,7 +4,7 @@ import Square from './Square.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   console.log('Document is loaded');
-  console.log('This is awesome');
+  console.log('This is the manifest project');
 
   const square = new Square(5);
   console.log(square);
